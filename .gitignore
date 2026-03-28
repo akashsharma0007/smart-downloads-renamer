@@ -1,0 +1,20 @@
+# Daily rename logs (personal/company data — stay local)
+rename_log_*.json
+
+# Generated per-machine files (recreated by setup.bat)
+start_watcher.bat
+start_watcher.vbs
+.python_path
+
+# Portable Python bundle (too large for git — downloaded by setup.bat if needed)
+python-embed/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini

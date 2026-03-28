@@ -1,0 +1,30 @@
+{
+  "_comment": "Smart Downloads Renamer — Edit this file to configure your preferences",
+
+  "downloads_folder": "~/Downloads",
+
+  "auto_rename": false,
+
+  "watch_interval_seconds": 5,
+
+  "log_file": "rename_log.json",
+
+  "supported_extensions": [
+    ".jpg", ".jpeg", ".png", ".gif", ".webp",
+    ".pdf", ".docx", ".doc", ".txt", ".xlsx",
+    ".zip", ".csv", ".mp4", ".mov"
+  ],
+
+  "generic_name_patterns": [
+    "^image[-_]?\\d+$",
+    "^img[-_]?\\d+$",
+    "^photo[-_]?\\d+$",
+    "^download[-_]?\\d*$",
+    "^file[-_]?\\d*$",
+    "^document[-_]?\\d*$",
+    "^unnamed$",
+    "^untitled[-_]?\\d*$",
+    "^[a-f0-9]{8,}$",
+    "^\\d{8,}$"
+  ]
+}
